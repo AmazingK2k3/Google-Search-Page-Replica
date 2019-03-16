@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Facebook-log in or sign up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylefb.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <header>
+          <div class="fblog">
+            <div class="fblogo">
+              <img id=fb_logo src="fb-hero.jpeg" alt="Facebook">
+            </div>
+            <div class="fb_login">
+              <div class="email">
+                <label>Email or Phone</label><br>
+                <input type="text" name="email"/><br>
+              </div>
+              <div class="password">
+                <label>Password</label><br>
+                <input type="password" name="password"/><br>
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar" target="_blank">Forgotten account?</a>
+              </div>
+              <div class="login-button">
+                <input type="submit" value="Log In" />
+              </div>
+            </div>
+          </div>
+      </header>
+      <div class="main">
+          <div class="left">
+            <p id="lft">Facebook helps you connect and share with the people in your life.</p>
+            <img src="world.png" />
+          </div>
+          <div class="right">
+              <p id="crt">Create a new account</p>
+              <p id="act">It's free and always will be.</p>
+              <table class="right">
+               <tr>
+                 <td><input type="text" name="first-name" placeholder="First name" class="ipt" />
+                 <input type="text" name="surname" placeholder="Surname" class="ipt2"/></td>
+               </tr>
+               <tr>
+                 <td colspan="2"><input type="text" name="mobile" placeholder="Mobile number or email address" class="ipt3" /></td>
+                </tr>
+               <tr>
+                <td colspan="2"><input type="password" name="mobile" placeholder="New password" class="ipt3" /></td>
+                </tr>
+               <tr>
+                <td><p id="brt">Birthday</p></td>
+                </tr>
+               <tr class="bdp">
+                 <td>
+                  <select class="dropdown">
+                    <option>16</option>
+                  </select>
+                  <select class="dropdown">
+                   <option>Mar</option>
+                  </select>
+                  <select class="dropdown">
+                   <option>1994</option>
+                  </select>
+                  <a href="#"><p>Why do I need to provide my<br> date of birth?</p></a>
+                 </td>
+               </tr>
+               <tr class="radb">
+                 <td>
+                   <input type="radio" name="gender" value="female" ><label>Female</label>
+                   <input type="radio" name="gender" value="male"><label>Male</label>
+                  </td>
+               </tr>
+                <tr class="infos">
+                  <td><p>By clicking Sign Up,  you agree to our <a href="https://www.facebook.com/legal/terms/update" target="_blank">Terms</a>, <a href="https://www.facebook.com/about/privacy/update" target="_blank">Data Policy</a> and <br><a href="https://www.facebook.com/policies/cookies/" target="_blank">Cookie Policy</a>. You may receive SMS notiifications from us and<br>can opt out at any time</p></td>
+                 </tr>
+                <tr class="button">
+                  <td><input type="submit" value="Sign Up" /></td>
+                </tr>
+                <tr class="celeb">
+                   <td><p><a href="https://www.facebook.com/pages/creation/?ref_type=registration_form" target="_blank">Create a Page</a> for a celebrity, band or business</p></td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+      
+ 
