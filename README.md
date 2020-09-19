@@ -3,7 +3,8 @@ This is a prelimnary copy of the Google search page made using HTML and CSS.
 
  
 ## Screenshots
-https://github.com/AmazingK2k3/Google-Search-Page-Replica/issues/2#issue-704877283
+![Capture](https://user-images.githubusercontent.com/47426594/93667613-f4640e80-faa4-11ea-9210-633a202e97fe.PNG)
+
 
 ## Tech/framework used
 Visual Studio Code
