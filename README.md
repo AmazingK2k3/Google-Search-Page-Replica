@@ -1,5 +1,6 @@
 ## Google Search Page Replica[Old]
 This is a prelimnary copy of the Google search page made using HTML and CSS.
+Click to visit: https://amazingk2k3.github.io/Google-Search-Page-Replica/
 
  
 ## Screenshots
